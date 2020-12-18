@@ -1,0 +1,30 @@
+.area{
+    display: flex;
+    flex-direction: row;
+    
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10% 0 0 2%;
+    height: 10vh;
+    width: 5vw;
+    
+}
+#txt, #del{
+    margin: 50% 0;
+    background-color: bisque;
+}
+
+img{
+   position: inherit;
+   width: 100%;
+   height: 100%;
+}
+canvas {
+    position: absolute;
+    border: 1px solid #999;
+    margin: 5% 0 0 20%
+    
+}
