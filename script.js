@@ -40,7 +40,7 @@ var textbtn = document.getElementById("txt").addEventListener("click",addtextare
 var delbtn = document.getElementById("del");
 delbtn.addEventListener("click",deltextarea);
 document.addEventListener("keydown", function(event) {
-    if (event.keyCode === 46) {
+    if (event.key === 'Delete') {
        deltextarea();
     }
 });

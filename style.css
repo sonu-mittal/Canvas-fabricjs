@@ -1,7 +1,6 @@
 .area{
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;  
 }
 .btns{
     display: flex;
@@ -10,7 +9,6 @@
     padding: 10% 0 0 2%;
     height: 10vh;
     width: 5vw;
-    
 }
 #txt, #del{
     margin: 50% 0;
